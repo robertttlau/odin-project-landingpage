@@ -1,0 +1,142 @@
+body,
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content{
+    flex:1;
+}
+
+.header,
+.footer,
+.main {
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+}
+.figs {
+  background-color: #f9faf8;
+  padding-bottom: 18px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  margin: 0;
+  list-style: none;
+  flex-shrink: 0;
+}
+.main {
+  justify-content: center;
+  gap: 32px;
+  padding: 32px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.left .right {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+  gap: 8px;
+}
+.right .button {
+  align-self: self-end;
+}
+
+.question {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  padding-bottom: 28px;
+}
+.answer {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  flex-shrink: 0;
+}
+.info {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 32px;
+}
+.somecats {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+}
+.cat {
+  max-width: 255px;
+}
+
+.text {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: #1f2937; 
+}
+.quote {
+  align-self: center;
+  padding: 108px 108px;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 72px 254px;
+    border-radius: 20px;
+}
+.action .left{
+    padding: 64px;
+}
+.action button{
+    align-self: center;
+    border: 2px solid #e5e7eb;
+}
+.call{
+    font-size: 24px;
+    font-weight: bold;
+padding: 8px;
+}
+img {
+  width: 255px;
+  height: 170px;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 0;
+  
+  border-radius: 5px;
+  padding: 4px 16px;
+}
